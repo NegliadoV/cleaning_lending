@@ -1,0 +1,52 @@
+.advantage {
+    display: block;
+    margin: 4rem 0;
+     align-items: center;
+}
+
+
+.adventage__pack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+.adventage__block {
+    margin-top: 2rem;
+    max-width: 17rem;
+    margin-left: 50px;
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.advantage__icon {
+    max-width: 6rem;
+}
+
+.adventage__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $black;
+    margin-top: 1rem;
+}
+
+.adventage__text {
+    font-size: 1.1rem;
+    font-weight: 400;
+
+    color: $gray_lite;
+
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 1200px) {
+    .adventage__block {
+        &:first-child {
+            margin-left: 50px;
+        }
+    }
+}

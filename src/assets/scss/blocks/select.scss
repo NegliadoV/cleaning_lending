@@ -1,0 +1,107 @@
+.select.is-active .select__text {
+    display: block;
+}
+
+.select.is-active .select__arrow {
+    transform: rotate(180deg);
+}
+
+.select {
+    position: relative;
+}
+
+.select__inner {
+    cursor: pointer;
+
+    background-color: $white;
+	border: #F5F5F5;
+	width: 270px;
+    height: 50px;
+    padding: 0 1.8rem ;
+    border-radius: 3px;
+    font-family: inherit;
+    line-height: 1.2rem;
+    text-align: center;
+
+    border: one;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+	font-size: 1rem;
+	font-weight: 400;
+	color: $grey-lite2;
+
+    &:hover {
+        transform: border 2px liner;
+        color: $grey;
+        border-color: $grey;
+        outline: 0;
+        box-shadow: 0 0 0 0.15rem fade($blue , 50%);
+      }
+
+      &--intro {
+          margin-left: 30px;
+      }
+
+      &--topbar {
+        min-width: 171px;
+        height: 50px;
+      }
+
+      &--reviews {
+        min-width: 126px;
+        height: 40px;
+        border: none;
+        color: $grey;
+
+        margin-right: 30px;
+
+            &:hover {
+                color: $grey;
+                background-color: $white;
+                border-color: $grey;
+                outline: 0;
+                box-shadow: 0 0 0 0.15rem fade($grey , 50%);
+            }
+        }
+}
+
+.select__text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+
+    display: none;
+    }
+
+
+
+
+.select__value {
+    height: 20px;
+    width: 270px;
+    background-color: $white;
+    font-size: 1rem;
+	font-weight: 400;
+	color: $grey;
+    cursor: pointer;
+    text-align: center;
+
+
+    &:last-child {
+    border-radius: 0px 0px 3px 3px;
+    -webkit-border-radius: 0px 0px 3px 3px;
+    -moz-border-radius: 0px 0px 3px 3px;
+    }
+
+
+    &:hover {
+        transition: background-colir .2s liner;
+        background-color: #F5F5F5;
+    }
+}

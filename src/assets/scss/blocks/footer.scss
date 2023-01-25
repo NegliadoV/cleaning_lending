@@ -1,0 +1,42 @@
+.footer {
+    padding: 2rem 0;
+    background: $black;
+}
+
+.footer__block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer__phone {
+    color: $white;
+    font-weight: 700;
+}
+
+.footer__messagers {
+    margin-left: 1rem;
+}
+
+.footer__e-mail {
+    color: $white;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.footer__developer {
+    color: $white;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+
+@media (max-width: 645px) {
+    .footer__e-mail {
+        display: none;
+    }
+
+    .footer__block {
+        justify-content: center;
+    }
+}

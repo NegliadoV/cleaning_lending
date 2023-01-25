@@ -1,0 +1,280 @@
+---
+layout: default
+title: CleanHome
+---
+
+<div class="intro" id="intro">
+    <div class="intro__bg"><img class="intro__bg_img"  src="./assets/images/intro_bg.jpg" alt="">
+        <div class="container">
+            <div class="intro__logo-mob">CleanHome</div>
+            <div class="intro__inner">
+                <div class="intro__title">
+                    <h2 class="intro__title-text">Профессиональная уборка
+                        квартир, домов и офисов в городе Великие Луки</h2>
+                    <p class="intro__text">Для физических и юридических лиц.</p>
+                </div>
+            </div>
+
+            <div class="calculation" id="calculation">
+                <div class="calculation__title">Рассчитать стоимость</div>
+                <div class="calculacion__place">
+                    <div class="select">
+                        <div class="select__inner">
+                            <div class="select_placeholder">Вид уборки</div>
+                            <img src="../assets/images/arrow_down.svg" alt="" class="select__arrow">
+                        </div>
+                        <div class="select__text" id="selectText">
+                            <option value="90" class="select__value ">После ремонта</option>
+                            <option value="70" class="select__value">Генеральная</option>
+                            <option value="60" class="select__value">Экспрес</option>
+                        </div>
+                    </div>
+
+
+                    <input type="text" id="inputLeft" class="input" required placeholder="м2">
+                    <input type="text" id="inputRight" class="input input--right" required
+                        placeholder="Створки окон шт.">
+
+                    <button class="btn-hover btn" onclick="btnClic()" id="btnIntro">Рассичитать</button>
+                </div>
+                <div class="caclulacion__summ">
+                    <div class="total__price">Стоимость: </div>
+                    <div class="total__summ" id="totalPrice"> 0</div>
+                    <p class="total__rub">руб.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  /intro  -->
+
+
+<!-- Services -->
+
+<!-- button Up -->
+<a class="btn-hover btn--arrow" id="move_up"><img src="./assets/images/arrow_up.svg" class="arrow__up"></a>
+<!-- end button Up -->
+
+<div class="services" id="services">
+    <div class="container">
+        <div class="sevices__title">
+            <h2 class="services__title-text">
+                Наши услуги
+            </h2>
+        </div>
+
+        <div class="services__name">
+            <div class="service__block">
+                <div class="sercice__block-title">
+                    Поддерживающая уборка</div>
+                <div class="service__bloc-price">
+                    60 руб./м2</div>
+                <button id="btnService" class="btn-hover btn--price"><a class="service__lick"
+                        href="#linkFeedback">Заказать</a></button>
+            </div>
+
+            <div class="service__block">
+                <div class="sercice__block-title">
+                    Уборка после ремонта</div>
+                <div class="service__bloc-price">
+                    от 90 руб./м2</div>
+                <button id="btnService" class="btn-hover btn--price"><a class="service__lick"
+                        href="#linkFeedback">Заказать</a></button>
+            </div>
+
+            <div class="service__block">
+                <div class="sercice__block-title">
+                    Генеральная уборка квартир, офисов </div>
+                <div class="service__bloc-price">
+                    от 70 руб./м2</div>
+                <button id="btnService" class="btn-hover btn--price"><a class="service__lick"
+                        href="#linkFeedback">Заказать</a></button>
+            </div>
+
+            <div class="service__block">
+                <div class="sercice__block-title">
+                    Мытье окон и витрин</div>
+                <div class="service__bloc-price">
+                    от 150 руб./створка</div>
+                <button id="btnService" class="btn-hover btn--price"><a class="service__lick"
+                        href="#linkFeedback">Заказать</a></button>
+            </div>
+        </div>
+
+    </div>
+</div> <!-- /service -->
+
+<!-- advantage -->
+
+<div class="advantage" id="advantage">
+    <div class="container">
+        <div class="adventage__pack">
+            <div class="adventage__block">
+                <img src=".//assets/images/skills.svg" class="advantage__icon">
+                <div class="adventage__title">Обученный персонал</div>
+                <div class="adventage__text">Сотрудник приступает к работе после специальных тренингов</div>
+            </div>
+
+
+
+
+            <div class="adventage__block">
+                <img src=".//assets/images/car-sticker.svg" class="advantage__icon">
+                <div class="adventage__title">Бесплатный выезд</div>
+                <div class="adventage__text">По городу Великие луки и области до 25 км</div>
+            </div>
+
+
+            <div class="adventage__block">
+                <img src=".//assets/images/time.svg" class="advantage__icon">
+                <div class="adventage__title">Оперативность</div>
+                <div class="adventage__text">Мы полностью и качественно уберём Ваше помещение в течение 4-6 часов</div>
+            </div>
+
+
+            <div class="adventage__block">
+                <img src=".//assets/images/vacuum-cleaner.svg" class="advantage__icon">
+                <div class="adventage__title">Надежная техника</div>
+                <div class="adventage__text">Наши клинеры используют технику фирмы Керхер</div>
+            </div>
+
+
+            <div class="adventage__block">
+                <img src=".//assets/images/apply-coupon-code.svg" class="advantage__icon">
+                <div class="adventage__title">Скидки постоянным клиентам</div>
+                <div class="adventage__text">Наши постоянные клиенты имеют цены на 10% дешевле</div>
+            </div>
+
+            <div class="adventage__block">
+                <img src=".//assets/images/quality.svg" class="advantage__icon">
+                <div class="adventage__title">Более 10 лет опыта</div>
+                <div class="adventage__text">Гарантируют качественное выполнение работ</div>
+            </div>
+
+            <div class="adventage__block">
+                <img src=".//assets/images/devices.svg" class="advantage__icon">
+                <div class="adventage__title">Доступность</div>
+                <div class="adventage__text">Для заказа уборки позвоните или оставьте заявку на сайте</div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div> <!-- /adventage -->
+
+<div class="stage">
+    <div class="container">
+        <h3 class="stage__title">Четыре простых шага к чистоте</h3>
+        <div div class="stage__pack">
+            <div class="stage__block">
+                <img src="./assets/images/1.svg" alt="" class="stage__img">
+                <div class="stage__text">Вы оформляете заявку на юридическое или физическое лицо или получаете
+                    консультацию по телефону</div>
+            </div>
+
+            <div class="stage__block">
+                <img src="./assets/images/2.svg" alt="" class="stage__img">
+                <div class="stage__text">Мы выезжаем к вам на осмотр объекта ( для юридических лиц), для физических лиц
+                    возможен осмотр по фото и видео фиксации</div>
+            </div>
+        </div>
+
+        <div div class="stage__pack">
+
+            <div class="stage__block">
+                <img src="./assets/images/3.svg" alt="" class="stage__img">
+                <div class="stage__text">Мы знакомимся с объектом и требованиями, считаем точную стоимость</div>
+            </div>
+
+            <div class="stage__block">
+                <img src="./assets/images/4.svg" alt="" class="stage__img">
+                <div id="linkFeedback" class="stage__text">Подписываем договор и начинаем работу</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div> <!-- stage -->
+
+
+<!-- Feedback -->
+
+<div class="feedback" id="feedback">
+    <div class="mask__content" id="mask">
+        <div id="loader">
+            <div id="shadow"></div>
+            <div id="box"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="feedback__block">
+            <div class="feedback_left">
+                <div class="feedback__title">Свяжитесть с нами</div>
+                <div class="feedback__text">Можете с нами связаться через контакты указаные ниже или оставить заявку
+                    через форму обратной связи.</div>
+                <div class="feedback__data">
+                    <div class="feedback__data-link">
+                        <img src=".//assets/images/telephone.svg" alt="" class="feedback__data-img">
+                        <a href="#" class="feedback__img-text">+7 953 232 03 54</a>
+                    </div>
+                    <div class="feedback__data-link">
+                        <img src=".//assets/images/e-mail.svg" alt="" class="feedback__data-img">
+                        <a href="cleam60home@gmail.com" target="_blank"
+                            class="feedback__img-text">clean60home@gmail.com</a>
+                    </div>
+                    <div class="feedback__data-link">
+                        <img src=".//assets/images/vk.svg" alt="" class="feedback__data-img">
+                        <a href="https://vk.com/clean_home_vl" target="_blank" class="feedback__img-text">VK</a>
+                    </div>
+                    <div class="feedback__data-link">
+                        <img src=".//assets/images/adres.svg" alt="" class="feedback__data-img">
+                        <a href="#" class="feedback__img-text" target="_blank">Адрес</a>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback__right">
+
+
+
+                <form action="mail.php" id="form" method="POST" class="feedback__input">
+
+
+                    <div class="form__group field">
+                        <input type="text" class="form__field name req" placeholder="Name" name="name" id='name' />
+                        <label for="name" class="form__label ">Имя *</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="text" class="form__field phone req" placeholder="Phone" name="phone" id='phone' />
+                        <label for="name" class="form__label">Телефон *</label>
+                    </div>
+                    <div class="form__group field">
+                        <textarea class="form__field form__field--comment" placeholder="Comment" name="message"
+                            id='message'></textarea>
+                        <label for="name" class="form__label">Комментарий</label>
+                    </div>
+                    <button type="submit" id="buttonForm" class="btn-hover btn--form">Связаться</button>
+
+                    <div class="feedback__checkbox"><label class="checkbox__label path req">
+                            <input type="checkbox" class="checkbox req">
+                            <svg viewBox="0 0 21 21">
+                                <path
+                                    d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                </path>
+                            </svg>
+                        </label>
+                        <p class="checkbox__text">Я даю свое согласие на обработку персональных данных<br>
+                            в соответствие с <a href="Политика.pdf" class="linc__checkbox">Условиями</a> *.
+                        </p>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- /Feedback -->

@@ -1,0 +1,56 @@
+.calculation {
+    display: block;
+    margin-bottom:  8.7rem;
+    align-items: center;
+}
+
+.calculation__title {
+    text-align: left;
+    color: $white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.calculacion__place {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caclulacion__summ {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.total__price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+
+}
+
+.total__summ {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.total__rub {
+    margin-left: 1rem;
+     font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+
+}
+
+
+@media (max-width: 589px) {
+    .calculacion__place {
+
+
+    }
+}
+
+
+
